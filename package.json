@@ -43,5 +43,7 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "deploy": "node ./node_modules/vue-gh-pages/index.js",
+  "homepage": "https://github.com/sokkalingam/instabot-router"
 }
