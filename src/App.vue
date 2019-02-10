@@ -1,7 +1,10 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="container">
+    <div class="logo row">
+        <img class="logo" src="./assets/instabot-logo.png">
+        <img class="logo" src="./assets/instabot-title.png">
+    </div>
+    <HelloWorld msg="Instabot Router"/>
   </div>
 </template>
 
@@ -21,8 +24,23 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  text-align: center;
+  background-color: white;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  background-image: url('./assets/instabot-bg.jpg');
+  height: 100vh;
+}
+
+.logo {
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 </style>
