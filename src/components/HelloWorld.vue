@@ -13,9 +13,7 @@ export default {
     msg: String
   },
   created: function() {
-    let urls = ['https://instabot.localtunnel.me',
-                'https://instabot1.localtunnel.me',
-                'https://instabot2.localtunnel.me'];
+    let urls = ['http://192.243.103.97:8080'];
     
     urls.forEach((url) => {
       console.log(url);
