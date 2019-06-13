@@ -13,7 +13,7 @@ export default {
     msg: String
   },
   created: function() {
-    let urls = ['https://9a25977e.ngrok.io'];
+    let urls = ['https://e5253abf.ngrok.io'];
     
     urls.forEach((url) => {
       console.log(url);
